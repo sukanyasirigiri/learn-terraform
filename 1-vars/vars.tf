@@ -1,12 +1,17 @@
 variable "sample_string" {
     default = "HelloWorld"
 }
-output "sample_string" {
-    value = var.sample_string
+
+variable "sample_number" {
+    default = 100
 }
 
-#if the variable is combination of some string
+variable "sample_boolean" {
+    default = true
+}
 
-output "sample_string1" {
-    value = "value of sample_string = ${var.sample_string}"
+variable "sample_list"{
+    default = [
+        100, "hello", true
+    ]
 }
