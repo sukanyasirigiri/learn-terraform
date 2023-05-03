@@ -14,3 +14,4 @@ variable "fruits" {
     orange = 30
   }
 }
+
