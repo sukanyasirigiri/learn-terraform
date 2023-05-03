@@ -1,5 +1,5 @@
 # convert lower case to upper case
- variable "sample"{
+ variable "sample" {
     default = "abcdef"
  }
  output "sample" {
