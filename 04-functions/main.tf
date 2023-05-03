@@ -2,6 +2,7 @@
  variable "sample" {
     default = "abcdef"
  }
+ 
  output "sample" {
-    value = "var.sample"
+    value = upper(var.sample)
  }
